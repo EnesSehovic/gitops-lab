@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hello-config
+data:
+  environment: lab
+  message: "managed by Argo CD"
